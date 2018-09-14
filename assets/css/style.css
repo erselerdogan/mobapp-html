@@ -140,7 +140,7 @@ a:focus, a:hover {
 .h3-items {
     color: #633991;
     font-size: 33px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .section-title {
     text-align: center;
@@ -424,13 +424,28 @@ a:focus, a:hover {
 .app-store {
     width: 147.27px;
     height: 43.38px;
+    color: #633991;
+    font-weight: 550 !important;
+    padding: 0.7rem 1.6rem !important;
+    background-color: white;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26)
 }
 .google-store {
     width: 165.27px;
     height: 40.38px;
+    color: #633991;
+    font-weight: 550 !important;
+    padding: 0.7rem 1.6rem !important;
+    background-color: white;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
+}
+.app-google:hover {
+    color: #111;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
 }
 .symbols{
-    font-size: 24px;
+    font-size: 24px !important;
     color: #f4c9e2;
     float: right;
     width: 50px;
@@ -442,4 +457,11 @@ a:focus, a:hover {
 }
 .pdg-top-8 {
     padding-top: 8px;
+}
+.text-decoration:hover {
+    color:#D6619C;
+    text-decoration: underline;
+}
+a.logo:hover{
+    text-decoration: none;
 }
